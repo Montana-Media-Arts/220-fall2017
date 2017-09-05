@@ -36,7 +36,7 @@ The goal is to begin a journey in which the creative and technical possibilities
 
 ## Week 2
 
-(note: Prof. Musick is away this week)
+(note: Prof. Musick is away this week. THERE WILL NO CLASS MEETINGS!)
 
 - Please read from _Nature of Code_
     - [Introduction](http://natureofcode.com/book/introduction/)
