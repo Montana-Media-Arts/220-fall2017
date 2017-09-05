@@ -53,6 +53,9 @@ The course will conclude, with your design, development, and implementation of a
 
 - [Course GitHub Repo](https://github.com/Montana-Media-Arts/220-fall2017) (This git repository holds code examples, an issues board, as well as course Wiki.)
 - [Direct Link to Course Wiki](https://github.com/Montana-Media-Arts/220-fall2017/wiki)
+- [mart220 Slack Channel](https://mart220.slack.com)
+    - Slack is a communication tool used in industry, startups, and art teams. We will be trying it this semester as our primary tool of communication for the class. You are **REQUIRED** to participate in Slack and check it regularly. (I would encourage you to download the Slack app for your computer and mobile devices.) 
+    - [Link to Join](https://join.slack.com/t/mart220/shared_invite/MjM2NzIwODM1ODI4LTE1MDQ2NTExNzgtNWI1ZDE4ZTRmMw)
 
 
 
