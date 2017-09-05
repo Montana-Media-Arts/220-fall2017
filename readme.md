@@ -48,4 +48,4 @@ The goal is to begin a journey in which the creative and technical possibilities
 - Implement the "Ecosystem Project" described at the end of each chapter in p5.js.
     - You will need to setup a new GitHub repo for this course.
     - Set this repo to be a "webpage".
-    - Provide a link to your ecosystem in the HW-1 wiki page.
+    - Provide a link to your ecosystem in the [HW-1 wiki page](https://github.com/Montana-Media-Arts/220-fall2017/wiki/HW-1).
