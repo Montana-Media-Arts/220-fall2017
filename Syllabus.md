@@ -8,9 +8,9 @@ Date modified: 2017-09-05
 
 - [Course Overview](#course-overview)
 	- [Professor/Instructor](#professorinstructor)
-	- [Course Website](#course-website)
+	- [Course Websites](#course-websites)
 	- [Course Requirements](#course-requirements)
-	- [Technology, Tools, and Required Software](#technology-tools-and-required-software)
+	- [Technology, Tools, and Required Software](#technology-tools--required-software)
 	- [Books & Supplies](#books--supplies)
 - [Policies](#policies)
 	- [Course Evaluation](#course-evaluation)
@@ -77,7 +77,7 @@ Coding is hard. But, messy code, documents, and files will make it more difficul
 
 
 
-## Technology, tools, and required software
+## Technology, tools, & required software
 
 -   **p5.js**
 	-   The Javascript-based p5.js will be used as the primary development enironment.
@@ -264,9 +264,7 @@ Students who cheat or plagiarize will receive academic sanctions, which may incl
 
 #### Using Code Found Elsewhere
 
-It's super easy to find code online. As tempting as this is, I am going to require that you write your own code for the first 2/3 of the semester. This will help you grasp and retain the fundamentals. It does help to write the code from the book and website out, line by line. Code that is not written by you can not be submitted as a homework assignment or project as your own work.
-
-If you use code from elsewhere (which you will at times), I expect you to site the work and author, as well as to comment each line, as to what each line does programmatically. Do *not* summarize several lines of code from a high level (ie, TV Guide). I expect you to comment each line on a granular level. In addition in these cases, I am also looking for significant modification of the code, for you to enact your own ideas and to experiment heavily. Significant modification means beyond variable name and value changes. It's bending these concepts to your idea, especially graphically. It's not a copy and paste job.
+It's super easy to find code online. If you use code from elsewhere (which you will at times), I expect you to site the work and author, as well as to comment each line, as to what each line does programmatically. Do *not* summarize several lines of code from a high level (ie, TV Guide). I expect you to comment each line on a granular level. In addition in these cases, I am also looking for significant modification of the code, for you to enact your own ideas and to experiment heavily. Significant modification means beyond variable name and value changes. It's bending these concepts to your idea, especially graphically. It's not a copy and paste job.
 
 Also, never more than 40% of your code may be supplied from elsewhere. Period.
 
