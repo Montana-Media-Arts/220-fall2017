@@ -54,7 +54,7 @@ The course will conclude, with your design, development, and implementation of a
 - [Course GitHub Repo](https://github.com/Montana-Media-Arts/220-fall2017) (This git repository holds code examples, an issues board, as well as course Wiki.)
 - [Direct Link to Course Wiki](https://github.com/Montana-Media-Arts/220-fall2017/wiki)
 - [mart220 Slack Channel](https://mart220.slack.com)
-    - Slack is a communication tool used in industry, startups, and art teams. We will be trying it this semester as our primary tool of communication for the class. You are **REQUIRED** to participate in Slack and check it regularly. (I would encourage you to download the Slack app for your computer and mobile devices.) 
+    - Slack is a communication tool used in industry, startups, and art teams. We will be trying it this semester as our primary tool of communication for the class. You are **REQUIRED** to participate in Slack and check it regularly. (I would encourage you to download the Slack app for your computer and mobile devices.)
     - [Link to Join](https://join.slack.com/t/mart220/shared_invite/MjM2NzIwODM1ODI4LTE1MDQ2NTExNzgtNWI1ZDE4ZTRmMw)
 
 
@@ -207,16 +207,18 @@ Grades will be determined according to the following breakdown:
 
 Letters are assigned according to the following final course percentages:
 
-- A   95-100
-- A-  90-94
-- B+  86-89
-- B   83-85
-- B-  80-82
-- C+  76-79
-- C   73-75
-- C-  70-72
-- D   60-69
-- F   0-59
+| Grade | % Range 	|
+|:-----:|:---------:|
+| A  	| 93-100	|
+| A- 	| 90-93		|
+| B+ 	| 87-90		|
+| B  	| 83-87		|
+| B- 	| 80-83		|
+| C+ 	| 77-80		|
+| C  	| 73-77		|
+| C- 	| 70-73		|
+| D  	| 60-70		|
+| F  	| 0-59		|
 
 #### Assignment Grades
 
