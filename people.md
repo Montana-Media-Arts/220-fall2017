@@ -1,6 +1,6 @@
 # People
 
-Sierra J. Curtis
+(Jo) Sierra J. Curtis
 Emily Griffin
 Stephen Round
 Ryan Stipe
