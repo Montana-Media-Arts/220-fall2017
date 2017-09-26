@@ -21,7 +21,7 @@ The goal is to begin a journey in which the creative and technical possibilities
 - [Course GitHub Repo](https://github.com/Montana-Media-Arts/220-fall2017)
 - [Direct Link to Course Wiki](https://github.com/Montana-Media-Arts/220-fall2017/wiki)
 - [mart220 Slack Channel](https://mart220.slack.com)
-    - [Link to Join](https://join.slack.com/t/mart220/shared_invite/MjM2NzIwODM1ODI4LTE1MDQ2NTExNzgtNWI1ZDE4ZTRmMw)
+    
 
 
 # Weekly Breakdown
