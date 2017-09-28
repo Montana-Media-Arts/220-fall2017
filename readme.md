@@ -21,8 +21,12 @@ The goal is to begin a journey in which the creative and technical possibilities
 - [Course GitHub Repo](https://github.com/Montana-Media-Arts/220-fall2017)
 - [Direct Link to Course Wiki](https://github.com/Montana-Media-Arts/220-fall2017/wiki)
 - [mart220 Slack Channel](https://mart220.slack.com)
-    
 
+### p5 Download
+
+Here is a copy of p5, wrapped up, as you are used to from my initial classes.
+
+[p5 from Musick Repo](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/_empty_example/empty-example.zip)
 
 # Weekly Breakdown
 
