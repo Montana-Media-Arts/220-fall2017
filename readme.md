@@ -54,16 +54,27 @@ Here is a copy of p5, wrapped up, as you are used to from my initial classes.
     - Set this repo to be a "webpage".
     - Provide a link to your ecosystem in the [HW-1 wiki page](https://github.com/Montana-Media-Arts/220-fall2017/wiki/HW-1).
 
+
 ## Week 3
 
 Chapter 1, from NOC.
 
+
 ## Week 4
 
 Chapter 2, from NOC.
+
 
 ## Week 5
 
 Chapter 3, Trig Review, from NOC.
 
 - [3. Oscillation](http://natureofcode.com/book/chapter-3-oscillation/)
+
+
+
+
+<!--
+Final, technically scheduled for; 8-10AM, Friday, December 15
+(Day after expo)
+-->
