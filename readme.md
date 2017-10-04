@@ -71,6 +71,10 @@ Chapter 3, Trig Review, from NOC.
 
 - [3. Oscillation](http://natureofcode.com/book/chapter-3-oscillation/)
 
+Started Chapter 4, Particle Systems
+
+- [4. Particle Systems](http://natureofcode.com/book/chapter-4-particle-systems/)
+
 
 
 
