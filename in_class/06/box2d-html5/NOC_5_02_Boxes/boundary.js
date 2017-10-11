@@ -16,7 +16,7 @@ function Boundary(x_,y_, w_, h_) {
 
   var fd = new box2d.b2FixtureDef();
   fd.density = 1.0;
-  fd.friction = 0.5;
+  fd.friction = 0.1;
   fd.restitution = 0.2;
 
   var bd = new box2d.b2BodyDef();
