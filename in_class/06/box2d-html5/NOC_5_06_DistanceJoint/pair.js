@@ -6,7 +6,7 @@
 
 // Constructor
 function Pair(x,y) {
-  this.len = 32;
+  this.len = 128;
 
   this.p1 = new Particle(x,y);
   this.p2 = new Particle(x+random(-1,1),y+random(-1,1));
@@ -19,8 +19,8 @@ function Pair(x,y) {
   djd.length = scaleToWorld(this.len);
 
   // These properties affect how springy the joint is
-  djd.frequencyHz = 3;  // Try a value less than 5 (0 for no elasticity)
-  djd.dampingRatio = 0.1; // Ranges between 0 and 1 (1 for no springiness)
+  djd.frequencyHz = 0;  // Try a value less than 5 (0 for no elasticity)
+  djd.dampingRatio = 0; // Ranges between 0 and 1 (1 for no springiness)
 
   // Make the joint.  Note we aren't storing a reference to the joint ourselves anywhere!
   // We might need to someday, but for now it's ok

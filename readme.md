@@ -75,7 +75,11 @@ Started Chapter 4, Particle Systems
 
 - [4. Particle Systems](http://natureofcode.com/book/chapter-4-particle-systems/)
 
+## Week 7
 
+- For Wednesday;
+    - [Exercise 5.6 from NOC](http://natureofcode.com/book/chapter-5-physics-libraries/#exercise-56)
+    
 
 
 <!--

@@ -1,6 +1,4 @@
-// The Nature of Code
-// Daniel Shiffman
-// http://natureofcode.com
+
 
 // A reference to our box2d world
 var world;
@@ -26,11 +24,7 @@ function draw() {
   // Position Iteration, adjusts how much, each object can reposition itself, per timestep.
   world.Step(timeStep,10,10);
 
-  // Boxes fall from the top every so often
-  if (mouseIsPressed) {
-    var b = new Box(mouseX,mouseY);
-    boxes.push(b);
-  }
+
   // Display all the boxes
   for (var i = 0; i < boxes.length; i++) {
     boxes[i].display();
