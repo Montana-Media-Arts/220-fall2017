@@ -1,18 +1,15 @@
-// The Nature of Code
-// Daniel Shiffman
-// http://natureofcode.com
-
-// A circular particle
-
 // Constructor
-function Particle(x,y,r) {
+function Particle(x, y, r, density, type) {
   this.r = r;
-
-  this.col = color(127);
 
   // Define a body
   var bd = new box2d.b2BodyDef();
-  bd.type = box2d.b2BodyType.b2_dynamicBody;
+
+  if (type === 'static') {
+      bd.type = box2d.b2BodyType.b2_staticBody;
+  } else {
+      bd.type = box2d.b2BodyType.b2_dynamicBody;
+  }
   bd.position = scaleToWorld(x,y);
 
   // Define a fixture
@@ -22,25 +19,18 @@ function Particle(x,y,r) {
   fd.shape.m_radius = scaleToWorld(this.r);
 
   // Some physics
-  fd.density = 1.0;
-  fd.friction = 0.1;
-  fd.restitution = 0.3;
+  if( density ) {
+      fd.desnity = density;
+  } else {
+      fd.density = 1000;
+  }
+  fd.friction = 0.5;
+  fd.restitution = 0.9;
 
   // Create the body
   this.body = world.CreateBody(bd);
   // Attach the fixture
   this.body.CreateFixture(fd);
-
-  // Some additional stuff
-  this.body.SetLinearVelocity(new box2d.b2Vec2(random(-5, 5), random(2, 5)));
-  this.body.SetAngularVelocity(random(-5,5));
-
-    this.body.SetUserData(this);
-
-  // Change color when hit
-  this.change = function() {
-    this.col = color(random(255), random(255), random(255));
-  };
 
   // This function removes the particle from the box2d world
   this.killBody = function() {
@@ -71,7 +61,7 @@ function Particle(x,y,r) {
     push();
     translate(pos.x,pos.y);
     rotate(a);
-    fill(this.col);
+    fill(127);
     stroke(200);
     strokeWeight(2);
     ellipse(0,0,this.r*2,this.r*2);
