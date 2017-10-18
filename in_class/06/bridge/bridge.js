@@ -53,7 +53,7 @@ function Bridge() {
   };
 
   this.display= function() {
-    var p1, p2;
+    var p1, p2, yMax = 0;
     for (var i = this.pBtwn.length-1; i > 0; i--) {
       p1 = scaleToPixels(this.pBtwn[i].body.GetPosition());
       p2 = scaleToPixels(this.pBtwn[i-1].body.GetPosition());
@@ -61,6 +61,10 @@ function Bridge() {
       stroke(200);
       strokeWeight(2);
       line(p1.x, p1.y, p2.x, p2.y);
+
+      if (p1.y > yMax) {
+          yMax = p1.y;
+      }
     }
 
     p1 = scaleToPixels(this.pBtwn[1].body.GetPosition());
@@ -69,6 +73,7 @@ function Bridge() {
     this.pBtwn[0].display();
 
 
+    return yMax;
 
 
   }

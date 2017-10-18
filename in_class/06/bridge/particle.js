@@ -38,11 +38,11 @@ function Particle(x, y, r, density, type) {
   };
 
   // Is the particle ready for deletion?
-  this.done = function() {
+  this.done = function(yMax) {
     // Let's find the screen position of the particle
     var pos = scaleToPixels(this.body.GetPosition());
     // Is it off the bottom of the screen?
-    if (pos.y > height+this.r*2) {
+    if (pos.y > height+this.r*2 && pos.y > yMax+this.r*2 ) {
       this.killBody();
       return true;
     }

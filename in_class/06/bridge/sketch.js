@@ -15,15 +15,16 @@ function draw() {
   background(100);
   var timeStep = 1/30;
   world.Step(timeStep, 10, 10);
-  bridge.display();
+  var y_max = bridge.display();
 
   // Display all the boxes
   for (var i = pops.length-1; i >= 0; i--) {
     pops[i].display();
-    // if (pops[i].done()) {
-    //   pops.splice(i,1);
-    // }
+    if (pops[i].done(y_max)) {
+      pops.splice(i,1);
+    }
   }
+  console.log(pops.length);
 }
 
 function mousePressed() {
