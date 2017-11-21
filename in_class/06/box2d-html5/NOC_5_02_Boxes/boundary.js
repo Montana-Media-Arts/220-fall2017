@@ -1,3 +1,11 @@
+/**
+ * @Author: Michael Musick <michaelmusick>
+ * @Date:   09-06-2017
+ * @Email:  michael.musick@umontana.edu
+ * @Last modified date: 10-23-2017
+ */
+
+
 // The Nature of Code
 // Daniel Shiffman
 // http://natureofcode.com
@@ -25,7 +33,7 @@ function Boundary(x_,y_, w_, h_) {
   bd.position.x = scaleToWorld(this.x);
   bd.position.y = scaleToWorld(this.y);
   fd.shape = new box2d.b2PolygonShape();
-  fd.shape.SetAsBox(this.w/(scaleFactor*2), this.h/(scaleFactor*2));
+  fd.shape.SetAsBox(scaleToWorld(this.w/2), scaleToWorld(this.h/2));
   this.body = world.CreateBody(bd).CreateFixture(fd);
 
   // Draw the boundary, if it were at an angle we'd have to do something fancier

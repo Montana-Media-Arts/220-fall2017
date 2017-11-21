@@ -9,17 +9,17 @@
 function Surface() {
     this.surface = [];
     // Here we keep track of the screen coordinates of the chain
-    // this.surface.push(new box2d.b2Vec2(0, height/2));
-    // this.surface.push(new box2d.b2Vec2(width/2, height-10));
-    // this.surface.push(new box2d.b2Vec2(3*width/4, height-100));
-    // this.surface.push(new box2d.b2Vec2(width, height-1));
-    for (var x = 0; x < width; x += 2) {
-        var amp = height / 8;
-        var y = amp * cos(TWO_PI * x / width * 4 + 0);
-        y = y + amp + (height / 2);
-
-        this.surface.push(new box2d.b2Vec2(x, y));
-    }
+    this.surface.push(new box2d.b2Vec2(0, height/2));
+    this.surface.push(new box2d.b2Vec2(width/2, height-10));
+    this.surface.push(new box2d.b2Vec2(3*width/4, height-100));
+    this.surface.push(new box2d.b2Vec2(width, height-1));
+    // for (var x = 0; x < width; x += 2) {
+    //     var amp = height / 8;
+    //     var y = amp * cos(TWO_PI * x / width * 4 + 0);
+    //     y = y + amp + (height / 2);
+    //
+    //     this.surface.push(new box2d.b2Vec2(x, y));
+    // }
 
     for (var i = 0; i < this.surface.length; i++) {
         this.surface[i] = scaleToWorld(this.surface[i]);

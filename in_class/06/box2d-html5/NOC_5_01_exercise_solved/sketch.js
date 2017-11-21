@@ -13,7 +13,7 @@ function setup() {
 
   // Initialize box2d physics and create the world
   world = createWorld(new box2d.b2Vec2(0,0));
-  world.SetGravity(new box2d.b2Vec2(0,20));
+  world.SetGravity(new box2d.b2Vec2(0,-200));
 
 }
 
