@@ -1,3 +1,10 @@
+/*
+
+Uses arduino2p5-STRING sketch
+
+ */
+
+
 var serial; // variable to hold an instance of the serialport library
 var portName = '/dev/cu.usbmodem1411'; // fill in your serial port name here
 var inData; // for incoming serial data
@@ -18,10 +25,33 @@ function setup() {
 }
 
 function draw() {
-    background(0);
-    fill(255);
-    text("sensor value: " + inData, 30, 30);
+    // background(0);
+    // fill(255);
+    // text("sensor value: " + inData, 30, 30);
+    graphData(inData);
 }
+
+let yPos;
+let xPos = 0;
+
+
+function graphData(newData) {
+    // map the range of the input to the window height:
+    var yPos = map(newData, 0, 1023, 0, height);
+    // draw the line in a pretty color:
+    stroke(0xA8, 0xD9, 0xA7);
+    line(xPos, height, xPos, height - yPos);
+    // at the edge of the screen, go back to the beginning:
+    if (xPos >= width) {
+        xPos = 0;
+        // clear the screen by resetting the background:
+        background(0x08, 0x16, 0x40);
+    } else {
+        // increment the horizontal position for the next reading:
+        xPos++;
+    }
+}
+
 
 
 // get the list of ports:
@@ -42,7 +72,15 @@ function portOpen() {
 }
 
 function serialEvent() {
-    inData = Number(serial.read());
+    // read a string from the serial port:
+    var tempString = serial.readLine();
+    // check to see that there's actually a string there:
+    if (tempString.length > 0) {
+        // convert it to a number:
+        inData = Number(tempString);
+        console.log(inData);
+    }
+
 }
 
 function serialError(err) {
